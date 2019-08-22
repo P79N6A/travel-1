@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/raiders/raiders",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "旅游资讯",
+    "navigationBarBackgroundColor": "#94bff8",
+    "backgroundColor": "#94bff8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#1a73e8",
+    "backgroundColor": "#c0d8f9",
+    "list": [
+      {
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/home_icon.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/image/raiders.png",
+        "selectedIconPath": "static/image/raiders_icon.png",
+        "pagePath": "pages/raiders/raiders",
+        "text": "攻略"
+      },
+      {
+        "iconPath": "static/image/mine.png",
+        "selectedIconPath": "static/image/mine_icon.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

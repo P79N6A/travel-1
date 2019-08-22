@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "bw-swiper": "/wxcomponents/bw-swiper/bw-swiper"
+  }
+}

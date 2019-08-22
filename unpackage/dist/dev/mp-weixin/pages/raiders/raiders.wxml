@@ -1,0 +1,1 @@
+<view class="body"><view class="title">旅游攻略集</view><view class="content"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list"><view class="list_title">{{item.title}}</view><image class="list_img" src="{{serverImg+item.src}}" mode="widthFix"></image></view></block></view></view>
