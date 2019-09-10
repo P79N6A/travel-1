@@ -35,7 +35,7 @@
 				}, {
 					title: "周边服务",
 					img: "peripheral.png",
-					url: ""
+					url: "../surround/surround"
 				}, {
 					title: "招商中心",
 					img: "Investment.png",
@@ -87,6 +87,9 @@
 			},
 			linkPage:function(item){
 				console.log(item);
+				uni.navigateTo({
+					url:item.url
+				})
 			}
 		}
 	}
